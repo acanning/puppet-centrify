@@ -99,7 +99,7 @@ class centrify (
   #anchor { '::centrify::end': }
 
   # ordering of class execution
-  Anchor ['::centrify::begin'] -> Class ['::centrify::install'] ->
-  Class['::centrify::config'] ~> Class['::centrify::service'] ->
-  Anchor['::centrify::end']
+  #Anchor ['::centrify::begin'] -> 
+  Class ['::centrify::install'] -> Class['::centrify::config'] ~> Class['::centrify::service']
+  #Anchor['::centrify::end']
 }
