@@ -41,8 +41,8 @@ class centrify::params {
   $private_group          = true
   $primary_gid            = ''
   $auto_join              = true
-  $cache_flush_int        = 24
-  $cache_obj_life         = 24
+  $cache_flush_int        = '24'
+  $cache_obj_life         = '24'
   $log_buffer             = false
   $maximum_password_age   = '90'
   $minimum_password_age   = '1'
